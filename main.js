@@ -1,3 +1,17 @@
+
+/*THE USE OF formValidator*/
+/*
+let yourForm = new formValidator('formId'['first-input-name','second-input-name',... ], passwordCheck= true or false )
+let submitBtn = ......
+submitBtn.addEventListener('listener', yourFunction )
+function your function(e){
+e.preventDefault();
+yourForm.checkForm();
+if (Object.keys(yourForm.formData).length > 0) {
+     do something with yourForm.formData (obj with form input values)
+  }
+}
+*/
 /*-----------FORME-----------*/
 
 let form1 = new FormValidator(
