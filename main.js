@@ -28,10 +28,9 @@ function register(e) {
 		displayFormData("#displayRegister", form1.formData);
 	}
 }
-// form1.init();
+
 
 let form2 = new FormValidator("loginForm", ["email", "password"], false);
-// form2.init();
 let loginBtn = document.querySelector("#login");
 loginBtn.addEventListener("click", login);
 function login(e) {
