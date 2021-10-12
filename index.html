@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="row justify-content-between mt-5">
+				<h2 class="text-center display-3">Forms1</h2>
+				<div class="col-5">
+					<form action="#" id="registerForm" class="form">
+						<div class="form-group mb-3">
+							<label for="name">Name</label>
+							<input type="text" name="name" class="form-control" />
+						</div>
+						<div class="form-group mb-3">
+							<label for="email">Email</label>
+							<input type="text" name="email" class="form-control" />
+						</div>
+						<div class="form-group mb-3">
+							<label for="password">Password</label>
+							<input type="text" name="password" class="form-control" />
+						</div>
+						<div class="form-group mb-3">
+							<label for="confirmPassword">Confrim Password</label>
+							<input type="text" name="confirmPassword" class="form-control" />
+						</div>
+						<button class="btn btn-primary" id="register">Register</button>
+					</form>
+				</div>
+				<div class="col-5" id="displayRegister"></div>
+			</div>
+			<div class="row justify-content-between">
+				<h2 class="text-center display-3">Form2</h2>
+				<div class="col-5">
+					<form action="#" id="loginForm" class="form">
+						<div class="form-group mb-3">
+							<label for="email">Email</label>
+							<input type="text" name="email" class="form-control" />
+						</div>
+						<div class="form-group mb-3">
+							<label for="password">Password</label>
+							<input type="text" name="password" class="form-control" />
+						</div>
+
+						<button class="btn btn-primary" id="login">Register</button>
+					</form>
+				</div>
+				<div class="col-5" id="displayLogin"></div>
+			</div>
+			<div class="row justify-content-between">
+				<h2 class="text-center display-3">Form3</h2>
+				<div class="col-5 mt-5">
+					<form action="#" id="register2" class="form">
+						<div class="form-group mb-3">
+							<label for="name">Name</label>
+							<input type="text" name="name" class="form-control" />
+						</div>
+						<div class="form-group mb-3">
+							<label for="email">Email</label>
+							<input type="text" name="email" class="form-control" />
+						</div>
+
+						<div class="form-group mb-3">
+							<label for="password">Password</label>
+							<input type="text" name="password" class="form-control" />
+						</div>
+						<div class="form-group mb-3">
+							<label for="confirmPassword">Confrim Password</label>
+							<input type="text" name="confirmPassword" class="form-control" />
+						</div>
+
+						<button class="btn btn-primary" id="registerBtn">Register</button>
+					</form>
+				</div>
+				<div class="col-5 mt-5" id="displayForm3"></div>
+			</div>
+		</div>
+
+		<script src="formValidator.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
